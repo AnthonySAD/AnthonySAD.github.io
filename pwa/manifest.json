@@ -1,0 +1,15 @@
+{
+  "name": "Anthony Blog",
+  "short_name": "Anthony Blog",
+  "description": "About an engineer who loves internet.",
+  "icons": [{
+    "src": "icons/200.png",
+    "sizes": "200x200",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
