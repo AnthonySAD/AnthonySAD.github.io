@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Git基本命令及原理
-subtitle:   Git simple commands and principles
+title:      了解推荐算法
+subtitle:   learning recommend algorithm 
 header-style:   text
 catalog: true
 tags:
