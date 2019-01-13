@@ -56,8 +56,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
 ## 常用格式
 > 以下格式都应用于基于OpenApi 3.0 开发的swagger 2.0
 
-- 文档基本信息（@OA\Info全局唯一）
-
+##### 文档基本信息（@OA\Info全局唯一）
 ```
 /** 
  * @OA\Info(
@@ -77,7 +76,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- 额外文档
+##### 额外文档
 > 可用于Tag中
 
 ```
@@ -89,8 +88,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- Api路径前缀（可多个）
-
+##### Api路径前缀（可多个）
 ```
 /**
  * @OA\Server(
@@ -100,8 +98,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- 接口安全中间件，L5-swagger不能使用，只能配置文件中配置
-
+##### 接口安全中间件，L5-swagger不能使用，只能配置文件中配置
 ```
 /**
  * @OA\SecurityScheme(
@@ -122,8 +119,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- 标签
-
+##### 标签
 ```
 /**
  * @OA\Tag(
@@ -133,8 +129,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- 请求
-
+##### 请求
 > get请求
 
 ```
@@ -174,7 +169,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
   *     path="/projects",
   *     tags={"projects"},
   *     summary="add project",
-  *     security={{"apiToken":{}}}, //使用安全中间件
+  *     security={ {"apiToken":{},"userToken":{}} }, //使用安全中间件
   *     @OA\RequestBody(
   *          description="project data",
   *          required=true,
@@ -195,8 +190,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
   */
 ```
 
-- 申明变量
-
+##### 申明变量
 ```
  /**
   * @OA\Schema(
@@ -221,8 +215,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
   * )
   */
 ```
-- 请求参数
-
+##### 请求参数
 ```
 /**@OA\Parameter(
  *    name="id",
@@ -238,8 +231,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  * )
  */
 ```
-- 请求体
-
+##### 请求体
 ```
 /**
  * @OA\RequestBody(
@@ -256,8 +248,7 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- 属性
-
+##### 属性
 ```
 /**
  * @OA\Property(
@@ -272,12 +263,11 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  */
 ```
 
-- 数组元素
-
+##### 数组元素
 ```
 /**
  * @OA\Items(
- *      type="string/",
+ *      type="string",
  *      description="name",
  *      maxLength=30,
  *      minLength=2,
@@ -287,26 +277,22 @@ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
 ```
 
 ## l5-swagger配置文件
-
 > 需要个性化配置的参数主要有以下几项:
 
-- 修改标题
+##### 修改标题
 ```
 'api' => [
     'title' => 'L5 Swagger UI',
 ],
 ```
 
-- 修改Api文档路径
-
+##### 修改Api文档路径
 ```
 'routes' => [
     'api' => 'api/documentation',
 ]
 ```
-
-- 配置安全中间件
-
+##### 配置安全中间件
 ```
 'security' => [
     'api_token' => [
