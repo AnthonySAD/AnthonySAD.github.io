@@ -23,11 +23,26 @@ tags:
 
 ### git诞生
 git诞生于2005年，它是由linux社区（特别是 Linux 的缔造者 Linus Torvalds）开发的。以下是git的设计原则：
+
 - 极快的速度
 - 简单的设计
 - 完全分布式
 - 对非线性开发模式的强力支持（允许成千上万个并行开发的分支）
 - 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）
+
+## 最新版下载
+
+从 [https://github.com/git/git/releases](https://github.com/git/git/releases)下载最新稳定版的tar.gz包。
+
+```shell
+tar zxvf git.tar.gz
+cd git.tar.gz
+autoconf
+./configure
+make
+make install
+export PATH=$PATH:/usr/local/bin
+```
 
 ## 基本原理
 
@@ -44,7 +59,7 @@ git的机制就像虚拟机或者云服务器储存快照。每当保存时，gi
     > 储存了你将下次提交时的文件状态
 - Git仓库 Repository
     > 储存了所有快照、所有历史文件
-    
+
 ### 基本工作流程
 1. 工作区修改文件
 2. 将工作区修改的文件的快照添加到暂存区
