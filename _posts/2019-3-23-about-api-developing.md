@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      关于前后端开发的简介
+title:      关于前后端开发的想法
 subtitle:   About the programe base on api developing
 tags:
     - api
@@ -9,7 +9,6 @@ tags:
 ## 背景
 
 我司有个项目需要改为前后端分离的项目，为此我有了如下思考。
-
 
 ## 个人观点
 
