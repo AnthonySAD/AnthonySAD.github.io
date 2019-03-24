@@ -8,7 +8,6 @@ tags:
 
 ## laravel
 
-安装方法:
 ```
 composer create-project --prefer-dist laravel/laravel blog 5.7.*
 ```
@@ -51,7 +50,6 @@ php artisan ide-helper:models Post
 ## image
 > 处理图片
 
-安装方法:
 ```
 composer require intervention/image
 ```
@@ -90,3 +88,19 @@ composer require "darkaonline/l5-swagger:5.8.*"
 具体使用方法请参考[我整理的文档](https://andongshen.com/2019/01/overview-swagger-and-l5-swagger.html)
 
 [官方git地址](https://packagist.org/packages/darkaonline/l5-swagger)
+
+## HttpClient
+> 发送http请求
+
+```
+composer require guzzlehttp/guzzle
+```
+
+[官方文档](https://guzzle-cn.readthedocs.io/zh_CN/latest/index.html)
+
+## token-generator
+> 生成随机字符串
+
+```
+composer require tokenly/token-generator
+```
