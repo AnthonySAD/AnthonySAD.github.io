@@ -1,7 +1,8 @@
 ---
 layout:     post
-title:      微信小程序有感
-subtitle:   About the blog
+title:      写微信小程序有感
+subtitle:   Thinking about the wechat mini program
+header-style:   text
 tags:
     - wechat mini program
 ---

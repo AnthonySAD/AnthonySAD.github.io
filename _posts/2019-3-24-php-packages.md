@@ -1,7 +1,8 @@
 ---
 layout:     post
 title:      我常用的php包
-subtitle:   php packages list
+subtitle:   Php packages list what I used
+header-style:   text
 tags:
     - php
     - composer

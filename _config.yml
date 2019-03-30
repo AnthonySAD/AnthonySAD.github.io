@@ -4,7 +4,7 @@ author: Anthony
 SEOTitle: 沈安东的博客 | Anthony Blog
 header-img: img/home-bg.jpg
 email: adshen@gmail.com
-description: ""
+description: "关于程序与设计、思考与总结 | 沈安东，Software Engineer，| 这里是 Anthony 的个人博客，与你一起发现更大的世界。"
 keyword: "沈安东的博客,Anthony blog,沈安东,Anthony,编程,PHP,后端"
 url: "https://blog.adshen.top"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -12,15 +12,15 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # Publish posts or collection documents with a future date.
 future: true
 
-
 # SNS settings
 RSS: false
-#weibo_username:     huxpro
-#zhihu_username:     huxpro
-#github_username:    huxpro
-#twitter_username:   huxpro
-#facebook_username:  huxpro
+# weibo_username:     anthony
+# zhihu_username:     anthony
+# github_username:    anthony
+# twitter_username:   anthony
+#facebook_username:  anthony
 #linkedin_username:  firstname-lastname-idxxxx
+
 
 
 # Build settings
@@ -29,9 +29,10 @@ highlighter: rouge
 permalink: /:year/:month/:title.html
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: false                           # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-timezone: PRC 
+timezone: PRC
+
 
 
 # Gems
@@ -39,6 +40,7 @@ timezone: PRC
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
+
 
 
 # Markdown settings
@@ -56,11 +58,14 @@ kramdown:
       start_line: 1
 
 
+
 # Disqus settings
-#disqus_username: hux
+disqus_username: false
 
 # Netease settings
 netease_comment: false
+
+
 
 # Analytics settings
 # Baidu Analytics 
@@ -81,7 +86,7 @@ sidebar-avatar: /img/avatar-g1.png      # use absolute URL, seeing it's used in 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 

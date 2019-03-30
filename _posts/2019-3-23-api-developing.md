@@ -1,7 +1,9 @@
 ---
 layout:     post
-title:      关于前后端开发的想法
-subtitle:   About the programe base on api developing
+title:      关于前后端开发的个人见解
+subtitle:   About the programming base on api developing
+header-style:   text
+
 tags:
     - api
 ---
