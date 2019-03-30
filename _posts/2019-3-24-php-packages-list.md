@@ -4,6 +4,7 @@ title:      我常用的php包
 subtitle:   php packages list
 tags:
     - php
+    - composer
 ---
 
 ## laravel
