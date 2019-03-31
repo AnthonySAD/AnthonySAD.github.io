@@ -284,6 +284,8 @@ git log非常有用，可以查看历史提交记录，及HEAD指向。。 一�
 
 ## 个人常用命令缩写
 
+使用```git config -e --global```打开全局配置文件，然后在```[alias]```下添加命令缩写。
+
 ```
 ll = git log --oneline
 ac = git commit -am
