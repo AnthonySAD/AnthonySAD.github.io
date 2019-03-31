@@ -5,5 +5,5 @@ The project is based on <a href="https://pages.github.com/">GitHub Pages</a> and
 
 ## Troubles
 
-- Can't use chinese for posts file name,or the post may show 404.
-
+- Can't use chinese for posts file name on local, but it works.
+permalink: pretty
