@@ -14,11 +14,11 @@ future: true
 
 # SNS settings
 RSS: false
-# weibo_username:     anthony
-# zhihu_username:     anthony
-# github_username:    anthony
-# twitter_username:   anthony
-#facebook_username:  anthony
+weibo_username:     anthonygm
+zhihu_username:     anthony-9-74
+github_username:    anthonySAD
+twitter_username:   anthony50426179
+#facebook_username:  andongshen
 #linkedin_username:  firstname-lastname-idxxxx
 
 
