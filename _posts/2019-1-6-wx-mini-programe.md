@@ -3,6 +3,7 @@ layout:     post
 title:      写微信小程序有感
 subtitle:   Thinking about the wechat mini program
 header-style:   text
+catalog: true
 tags:
     - wechat mini program
 ---

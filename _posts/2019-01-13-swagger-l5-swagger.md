@@ -20,19 +20,13 @@ tags:
 
 Swagger是一个基于OpenApi3.0标准的API文档编写、生成、渲染工具。l5-swagger是一个适配于Laravel集成了swagger-php和swagger-ui的包，开箱即用，非常爽。本人目前只使用laravel开发项目，所以没用过原生的swagger。以下是一些参考资料。
 
-[我写的使用了l5-swagger的小项目](https://github.com/AnthonySAD/wechat-membercard-api)
-
-[swagger-php官方demo](https://github.com/zircote/swagger-php/tree/master/Examples/petstore.swagger.io)
-
-[swagger官网](https://swagger.io/)
-
-[swagger-php官网](http://zircote.com/swagger-php/)
-
-[l5-swagger仓库](https://github.com/DarkaOnLine/L5-Swagger)
-
-[swagger文档](https://swagger.io/docs/specification/about/)
-
-[OpenAPI书写格式](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
+- [我写的使用了l5-swagger的小项目](https://github.com/AnthonySAD/wechat-membercard-api)
+- [swagger-php官方demo](https://github.com/zircote/swagger-php/tree/master/Examples/petstore.swagger.io)
+- [swagger官网](https://swagger.io/)
+- [swagger-php官网](http://zircote.com/swagger-php/)
+- [l5-swagger仓库](https://github.com/DarkaOnLine/L5-Swagger)
+- [swagger文档](https://swagger.io/docs/specification/about/)
+- [OpenAPI书写格式](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
 
 #### 核心功能
 

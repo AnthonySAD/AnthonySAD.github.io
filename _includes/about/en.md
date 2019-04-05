@@ -4,6 +4,8 @@ hi,guys.I am Anthony Shen,a PHP developer,work in a start-up company that locate
 
 I rejoice for the decision I maid that time.Programing give me achievability and good feeling, satisfy my  huge creating desire, improve learing habit improved a lot.
 
+Now my current goal is being a software engineer, not a coding worker.
+
 ---
 Else,I am crazy about Gundam,so the banners is so dazzling(￣▽￣)~*.
 

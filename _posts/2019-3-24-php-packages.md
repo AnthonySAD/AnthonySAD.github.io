@@ -3,6 +3,7 @@ layout:     post
 title:      我常用的php包
 subtitle:   Php packages list what I used
 header-style:   text
+catalog: true
 tags:
     - php
     - composer
@@ -87,9 +88,10 @@ composer require "overtrue/laravel-wechat:~5.0"
 composer require "darkaonline/l5-swagger:5.8.*"
 ```
 
-具体使用方法请参考[我整理的文档](https://andongshen.com/2019/01/overview-swagger-and-l5-swagger.html)
+具体使用方法请参考:
 
-[官方git地址](https://packagist.org/packages/darkaonline/l5-swagger)
+- [我整理的文档](/2019/01/13/swagger-l5-swagger/)
+- [官方git地址](https://packagist.org/packages/darkaonline/l5-swagger)
 
 ## HttpClient
 > 发送http请求
