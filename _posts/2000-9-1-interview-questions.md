@@ -74,9 +74,6 @@ mysql默认的事务隔离级别为repeatable-read
 
 [经典sql面试及答案](https://my.oschina.net/u/3706644/blog/2242223/)
 
-
-
-
 #### 防止sql注入
 
 1. 过滤参数
