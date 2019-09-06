@@ -10,6 +10,8 @@ tags:
 
 ## 前言
 
+>本文还未写完
+
 我近期离职后已参加了许多场面试，因此做一个面试题的汇总记录。
 
 ## 题目
@@ -56,11 +58,24 @@ mysql默认的事务隔离级别为repeatable-read
 
 从增加索引、设计数据库、水平垂直分库分表、集群、sql优化这5个方面来优化。
 
-可参考[MySQL优化/面试，看这一篇就够了](https://www.nowcoder.com/discuss/150059?type=0&order=0&pos=13&page=0)，】[面试过程中常遇到的Mysql优化方面的面试题](https://www.2cto.com/database/201807/763914.html)
+可参考[MySQL优化/面试，看这一篇就够了](https://www.nowcoder.com/discuss/150059?type=0&order=0&pos=13&page=0)，[面试过程中常遇到的Mysql优化方面的面试题](https://www.2cto.com/database/201807/763914.html)
 
 #### sql语句优化
 
 可参考[mysql优化](https://blog.csdn.net/PHPArchitect/article/details/82108417)。
+
+#### 一些sql语句题目
+
+[你必知必会的SQL面试题](https://www.cnblogs.com/deng-cc/p/6515166.html)
+
+[常见的SQL笔试题和面试题](https://blog.csdn.net/codema/article/details/80915311)
+
+[常见的SQL笔试题和面试题](https://msd.misuland.com/pd/3255817997595449688)
+
+[经典sql面试及答案](https://my.oschina.net/u/3706644/blog/2242223/)
+
+
+
 
 #### 防止sql注入
 
