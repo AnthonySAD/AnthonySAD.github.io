@@ -112,64 +112,113 @@ mysql默认的事务隔离级别为repeatable-read
 unix socket是一种终端，可以使同一台操作系统上的两个或多个进程进行数据通信。这种方式需要再nginx配置文件中填写php-fpm的pid文件位置，效率要比tcp socket高。
 tcp socket的优点是可以跨服务器，当nginx和php-fpm不在同一台机器上时，只能使用这种方式。
 
-#### Nginx集群有单机挂了，怎么恢复
-
 ### Linux
 
 #### 常用命令
 
+参考[Linux常用命令大全](https://www.cnblogs.com/yjd_hycf_space/p/7730690.html)
+参考[Linux常用命令大全](https://blog.csdn.net/ZF_9420/article/details/80466606)
+
 #### 定时任务
+
+参考[Linux Crontab 定时任务](https://www.runoob.com/w3cnote/linux-crontab-tasks.html)
+参考[Linux Crontab 定时任务](https://blog.csdn.net/qq_41816540/article/details/82021403)
 
 ### Vue.js
 
 #### Vue的生命周期
 
+参考[手把手教Vue--生命周期](https://www.jianshu.com/p/0d50ea1cef93?utm_source=oschina-app)
+参考[包你理解vue生命周期](https://segmentfault.com/a/1190000014640577)
+
 #### Vue双向绑定的原理
 
+参考[通俗易懂了解Vue双向绑定原理及实现](https://www.cnblogs.com/wangjiachen666/p/9883916.html)
+参考[vue双向绑定原理及实现](https://blog.csdn.net/gts_0901y/article/details/86028766)
+
 #### Vue的父子组件如何通讯
+
+参考[Vue.js 父子组件之间通信的十种方式](https://www.cnblogs.com/lhb25/p/10-way-of-vue-data-interact.html)
 
 ### Websocket
 
 #### 怎么建立连接连接
 
+参考[WebSocket协议解析](https://www.cnblogs.com/unclekeith/p/8087182.html)
+参考[WebSocket协议](https://www.jianshu.com/p/1b2019b02126)
+
 ### Http
 
 #### keep alive
 
+参考[HTTP协议的Keep-Alive 模式](https://www.jianshu.com/p/49551bda6619)
+
 #### 握手，挥手
 
-#### Http 1.2
+参考[Http协议再理解（一）经典模型、三次握手、四次挥手](https://www.jianshu.com/p/bd31d3b23725)
+
+#### Http 2.0
+
+参考[综合阐述http1.0/1.1/2和https](https://blog.csdn.net/weixin_37719279/article/details/81388358)
 
 ### Message Queue
 
 #### 原理
 
-#### PHP如何实现
-
-
+参考[再谈消息队列技术](https://www.cnblogs.com/tianqing/p/7110468.html)
+参考[什么是消息队列及消息队列原理和应用场景详解](http://www.365jz.com/article/23947)
 
 ### PHP
 
 #### 常用函数
 
+参考[PHP常用函数大全](https://blog.csdn.net/qq_35458793/article/details/80651773)
+
 ### API设计
 
 #### 设计要点
 
+参考[API设计要点](https://segmentfault.com/a/1190000004503009)
+
 #### 设计规范
+
+参考[API 设计规范](https://www.jianshu.com/p/c2b3e55441f4)
+参考[Restful API设计规范及实战](https://www.cnblogs.com/duanweishi/p/9539219.html)
 
 #### 如何限制访问频率
 
+使用redis记录
+
 #### 如何提高安全性
+
+参考[如何确保 API 的安全性](https://new.qq.com/omn/20190613/20190613A07CF800)
+参考[WebApi安全性 使用TOKEN+签名验证](https://www.cnblogs.com/zxh1919/p/7670118.html)
+参考[API接口的安全性](https://blog.csdn.net/weixin_43879074/article/details/89241432)
 
 ### More
 
 #### 简述浏览器浏览网页的步骤
 
+参考[访问一个网页的全过程](https://blog.csdn.net/u012862311/article/details/78753232)
+参考[浏览器解析网页的过程](https://blog.csdn.net/u013617791/article/details/82047852)
+
 #### 设计模式
+
+参考[图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
+参考[Java常见设计模式](https://www.jianshu.com/p/1c3a7ab5c527)
+参考[23种设计模式总结](https://blog.csdn.net/mw_nice/article/details/82840034)
 
 #### 跨域问题
 
+参考[什么是跨域？跨域解决方法](https://blog.csdn.net/qq_38128179/article/details/84956552)
+参考[HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
+
 #### DNS污染
 
+参考[什么是DNS污染](https://www.hack520.com/330.html)
+参考[DNS污染应该如何解决？](https://www.jb51.net/network/643843.html)
+
 #### CAP
+
+参考[CAP 定理的含义](http://www.ruanyifeng.com/blog/2018/07/cap.html)
+参考[分布式CAP定理，为什么不能同时满足三个特性？](https://blog.csdn.net/yeyazhishang/article/details/80758354)
