@@ -17,6 +17,10 @@ tags:
 ![image](/img/posts/about-the-blog/study-pyramid.png)
 所以我决定建一个博客，记录并总结我的学习的知识或者想法，以提高自己，同时分享给大家。
 
+## 关于本项目
+
+我使用的是[github page](https://pages.github.com) + [jekyll](http://jekyll.com.cn) 的方式搭建的博客，不需要自己的服务器，及方便又实惠。查看[项目源码](https://github.com/anthonysad/anthonysad.github.io)。
+
 ## 本站内容
 
 我除了会写一些技术相关的文章，可能还会分享其他有意思的东西，尽情期待。

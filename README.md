@@ -4,7 +4,7 @@
 
 # How to build
 
-This blog project is cloned from [huxblog-boilerplate](https://github.com/Huxpro/huxpro.github.io).You can find a good instruction there.
+This blog project is cloned from [huxblog-boilerplate](`https://github.com/Huxpro/huxpro.github.io`).You can find a good instruction there.
 
 The project is based on [GitHub Pages](https://pages.github.com) and [Jekyll](http://jekyll.com.cn).You don't need a private web server.It is very easy to build the blog website.
 
