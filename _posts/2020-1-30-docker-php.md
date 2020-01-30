@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      记使用docker构建PHP环境
+title:      使用docker构建PHP环境
 subtitle:   Build PHP environment by docker
 header-style:   text
 catalog: true
 tags:
     - docker
+    - my project
 ---
 
 ## 前言
@@ -29,43 +30,64 @@ tags:
 
 ## 常用命令
 
-- 查看docker容器进程
+查看docker容器进程
 
+```git
 docker ps (-a)
+```
 
-- 删除容器
+删除容器
 
+```git
 docker rm
-
 docker rm -f `docker ps -aq`
+```
 
-- 进入容器内部
+进入容器内部
 
-> windows下需要使用winpty
+```git
+//windows下需要使用winpty
 (winpty) docker exec -it 容器名 bash
+```
 
-- 退出容器
+退出容器
 
+```git
 exit
+```
 
-- 删除镜像
 
+查看docker本地镜像进程
+
+```git
+docker images
+```
+
+删除镜像
+
+```git
 docker rmi
-
 docker rmi $(docker images -q)
+```
 
-- 生成本地镜像
+生成本地镜像
 
+```git
 docker commit 容器id 镜像名:标签名
+```
 
-- 推送到远程仓库
+推送到远程仓库
 
-> 推送前必须登录
+```git
+//推送前必须登录
 docker push 镜像名
+```
 
-- 查看所有网桥
+查看所有网桥
 
+```git
 docker network ls
+```
 
 ## 关于docker-compose文件
 
