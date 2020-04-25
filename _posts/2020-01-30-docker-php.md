@@ -56,7 +56,6 @@ docker rm -f `docker ps -aq`
 exit
 ```
 
-
 查看docker本地镜像进程
 
 ```git

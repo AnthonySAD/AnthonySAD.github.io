@@ -97,6 +97,6 @@ go的协程太爽了，非常轻松的实现了异步高并发。而且写起来
 
 [官方文档](https://gorm.io/docs/index.html)，该包使用的是github.com/go-sql-driver/mysql作为mysql连接，该包已实现了mysql连接池。可以使用SetMaxOpenConns及SetMaxIdleConns设置最大连接数，及空闲连接数。该如何合理地设置连接池大小，请参考[MYSQL调优----如何设置合理的数据库连接池的大小](https://blog.csdn.net/weixin_35794878/article/details/90342263)。
 
-### goquery
+### [goquery](https://github.com/PuerkitoBio/goquery)
 
 分析页面数据时，可以使用css选择器筛选html元素，以代替正则匹配。
