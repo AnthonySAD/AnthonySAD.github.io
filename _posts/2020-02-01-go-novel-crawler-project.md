@@ -65,6 +65,10 @@ import _ "fmt"
 
 设置代理即可，参考[https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md](https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md)。如果使用的是goland，则还需在ide中设置下proxy。
 
+### go变量类型
+
+Golang中只有三种引用类型：slice(切片)、map(字典)、channel(管道)，其他都为值类型！
+
 ### 切片常用方法
 
 - append()函数合并切片，返回新切片
